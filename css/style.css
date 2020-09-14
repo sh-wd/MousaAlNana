@@ -70,7 +70,7 @@ ul {
 }
 
 
-/* grid setup for artwork*/
+/* grid setup for artwork */
 
 .grid-container {
   display: grid;
@@ -87,6 +87,15 @@ ul {
   grid-row: 1 / span 4;
 }
 
+.grid-item-1-special {
+  grid-column: 2/span 2;
+  grid-row: 2;
+}
+
+.grid-item-2-special {
+  grid-column: 1/span 4;
+  grid-row: 1;
+}
 
 /* grid set up for nav links */
 
@@ -146,6 +155,10 @@ ul {
 
 .artwork-img {
   height: 100vh;
+}
+
+.artwork-img-special {
+  width: 100vw;
 }
 
 .grid-nav-img {
